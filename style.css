@@ -1,0 +1,95 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+    background-position: center;
+}
+form
+input
+textarea
+button{
+    background: chartreuse(0,0,0,35);
+    box-shadow: 0 8px 32px black(31,38 135 0.37);
+    /* -webkit-backdrop-filter: blur(6px); */
+    border-radius: 10px;
+    padding: 30px
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url(https://picsum.photos/200/300/?blur=2);
+    background-size: cover;
+    background-position: center;
+    }
+form,
+input,
+textarea,
+button {
+    background: rgba(0, 0, 0, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 10px;
+    color: white;
+    padding: 5% 10%;
+    }
+    
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+
+li {
+        display: inline-block;
+    }
+ul {
+        background-color:darkgrey;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+* {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    a { 
+        padding: 20px;
+        color: cornsilk;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h1{
+        font-size: 40pt;
+    }
+    table, td,th{
+            border: 3px solid black; 
+         }
+    image{
+        width: 0%;
+        height: 0%;
+        float: right;
+    }
+    video{
+        width: "320";
+        height: "240";
+    }
