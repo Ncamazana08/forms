@@ -222,7 +222,7 @@ ul {
       }
       
       /* The circles on the timeline */
-      .container::after {
+      .container::after { 
         content: '';
         position: absolute;
         width: 25px;
